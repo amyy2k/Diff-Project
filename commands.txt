@@ -1,0 +1,9 @@
+./main -v
+./main left.txt right.txt
+./main right.txt left.txt
+./main -q left.txt right.txt
+./main -q -s left.txt right.txt
+./main -s -q left.txt right.txt
+./main -y left.txt right.txt
+./main -y --left-column left.txt right.txt
+./main -y --suppress-common-lines left.txt right.txt
